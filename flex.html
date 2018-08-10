@@ -1,0 +1,80 @@
+<html>
+<head>
+	
+<style type="text/css">
+body{
+	display: flex;
+	flex-direction: column;
+	background: white;
+	margin:auto;
+}
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:1px solid black;
+	border-radius: 20px;
+	margin:auto;
+	background: #C0C0C0;
+	height: 250px;
+	width: 400px;
+}
+#title{
+	position: relative;
+	bottom:40px;
+	font-size: 40px;
+	font-weight: 5;
+
+}
+#second{
+	display: inline-block;
+   height: 30px;
+   margin-bottom: 15px;
+  
+
+}
+#name{
+	display: flex;
+	margin : 5px;
+	justify-content: center;
+	border:1px solid black;
+	background: yellow;
+	border-radius: 8px;
+	height: 50px;
+
+}
+span{
+	height: 16px;
+	margin-left: 20px;
+	font-size: 14px
+}
+input{
+	flex:1;
+	margin-left:10px;
+	border-radius: 3px;
+}
+button{
+	display: absolute;
+	margin:20px;
+	border-radius: 3px;
+}
+</style>
+</head>
+<body>
+
+  <div id="main">
+  	<span id="title">FLEX布局</span>
+   <div id="second">
+    <span>输入名字</span>
+    <input type="text" name="">
+    <button>确定</button>
+  </div>
+  <div id="second">
+    <span>输入描述</span>
+    <input type="text" name="">
+    <button>确定</button>
+  </div>
+</div>
+  
+</body>
